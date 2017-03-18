@@ -46,7 +46,7 @@
                 {{#if bio}}
                     <p>{{bio}}</p>
                 {{else}}
-                    <!--<p>继续阅读此作者的<a href="{{url}}">更多文章</a>。</p>-->
+                    <p>继续阅读此作者的<a href="{{url}}">更多文章</a>。</p>
                 {{/if}}
                 <div class="author-meta">
                     {{#if location}}<span class="author-location icon-location">{{location}}</span>{{/if}}
@@ -58,7 +58,7 @@
 
         <!-- 多说评论框 start -->
         <section class="post-comments">
-            <div class="ds-thread" data-thread-key="{{slug}}" > data-title="{{{title}}}" data-url="{{url    absolute="true"}}">
+            <div class="ds-thread" data-thread-key="{{slug}}" data-title="{{{title}}}" data-url="{{url    absolute="true"}}">
             </div>
         </section>
         <!-- 多说评论框 end -->
